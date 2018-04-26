@@ -172,8 +172,6 @@ double Tchebichef_bar_poly(int order,int xy,int dim)
  return(t[pos]);
 }
 
-
-
 void __fastcall TForm1::Button2Click(TObject *Sender)
 {
     Form1->Button5->Enabled=False;
@@ -182,6 +180,7 @@ void __fastcall TForm1::Button2Click(TObject *Sender)
     Button7->Enabled=True;
     Button3->Enabled=True;
 }
+
 //---------------------------------------------------------------------------
 
 void __fastcall TForm1::Button3Click(TObject *Sender)
@@ -193,12 +192,14 @@ void __fastcall TForm1::Button3Click(TObject *Sender)
     }
     ListBox1->Items->Delete(0);
 }
+
 //---------------------------------------------------------------------------
 
 void __fastcall TForm1::Button4Click(TObject *Sender)
 {
 Close();
 }
+
 //---------------------------------------------------------------------------
 
 void __fastcall TForm1::Button7Click(TObject *Sender)
@@ -268,8 +269,8 @@ void __fastcall TForm1::Button7Click(TObject *Sender)
       }
 
 }
-//---------------------------------------------------------------------------
 
+//---------------------------------------------------------------------------
 
 void __fastcall TForm1::Button5Click(TObject *Sender)
 {
@@ -292,6 +293,7 @@ void __fastcall TForm1::Button5Click(TObject *Sender)
     Button7->Enabled=True;
     Button3->Enabled=True;
 }
+
 //---------------------------------------------------------------------------
 
 void __fastcall TForm1::Button8Click(TObject *Sender)
@@ -304,16 +306,8 @@ Form1->ProgressBar2->Position=0;
 Button5->Enabled=1;
 Form1->ListBox1->Clear();
 }
+
 //---------------------------------------------------------------------------
-
-
-
-
-
-
-
-
-
 
 void __fastcall TForm1::FormCreate(TObject *Sender)
 {
@@ -321,9 +315,3 @@ Button7->Enabled=False;
 Button3->Enabled=False;
 }
 //---------------------------------------------------------------------------
-
-
-
-
-
-
